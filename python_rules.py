@@ -1,4 +1,3 @@
-'''
 import json
 from flask import Flask, make_response, request
 from flask_wtf import CSRFProtect
@@ -49,6 +48,6 @@ def complicated_code(input):
 def index2():
 
     return complicated_code(request.args.get("input"))
-'''
  
 print("All done") 
+print("Really? Are you really all done?")
