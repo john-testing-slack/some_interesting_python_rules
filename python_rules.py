@@ -51,4 +51,4 @@ def index2():
     return complicated_code(request.args.get("input"))
 '''
  
-print("All done") 
+print("What a heroic effort!")
