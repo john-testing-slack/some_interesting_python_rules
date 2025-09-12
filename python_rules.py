@@ -6,7 +6,7 @@ from django.http import HttpResponseRedirect
 
 app = Flask(__name__)
 csrf = CSRFProtect()
-csrf.init_app(app)  
+csrf.init_app(app)   
 
 def update_and_show_counter(counter):
     counter += 1
